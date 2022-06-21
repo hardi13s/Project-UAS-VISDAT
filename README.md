@@ -1,253 +1,98 @@
-<div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+<h1 align="center">
+  Implementasi Visualisasi Data Interaktif pada Publikasi Indeks Pembangunan Manusia 
+</h1>
+<h2 align="center">
+  (Indeks Pembangunan Manusia Indonesia Tahun 2021)
+</h2>
+<hr>
+<h3 align="center"><i>Link</i> akses <i>project</i>: <a href="https://public.tableau.com/app/profile/hardi5401/viz/IndeksPembangunanManusia-Visdat/IPM">Project UAS VISDAT</a></h3>
+<hr>
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+<h2>Ringkasan Penelitian</h2>
+<h3>I. Latar Belakang </h3>
+  <p align="justify">
+  Indeks Pembangunan Manusia (IPM) adalah salah satu ukuran kualitas yang dapat digunakan untuk mengukur sejauh mana kualitas pembangunan manusia yang telah dicapai. Dalam pembangunan manusia terdapat konsep yang luas mengenai seluruh pilihan yang dimiliki oleh manusia pada semua golongan masyarakat pada setiap tahap pembangunan. Publikasi data statistik mengenai Indeks Pembangunan Manusia berupa tabel dan grafik dilakukan oleh Badan Pusat Statistik (BPS) dan dipublikasikan melalui media cetak dan <i>online</i>. 
   </p>
-</div>
+  <p align="justify">
+  Seiring dengan perkembangan teknologi, penyajian data statistik juga mengalami perkembangan. Data statistik tidak hanya disajikan dalam bentuk tabel dan grafik tetapi juga berupa visualisasi interaktif berbasis <i>online</i> yang memudahkan dalam hal mengakses dan mengeksplorasi data.
+  </p>
+  <p align="justify">
+  Berdasarkan uraian tersebut akan dibuat penelitian untuk membuat ulang (<i>redesign</i>) publikasi BPS mengenai Indeks Pembangunan Manusia dengan menggunakan visualisasi data interaktif. Dengan <i>redesign</i> tersebut diharapkan data statistik dapat lebih mudah dipahami dan dapat lebih dieksplorasi oleh pengguna dengan fitur-fitur yang ada dan akan disesuaikan dengan kebutuhan pengguna
+  </p>
 
+<h3>II. Tujuan Penelitian</h3>
+  <p align="justify">
+  Berdasarkan uraian pada latar belakang, maka dirumuskan tujuan penelitian yang ingin dicapai, yaitu: 
+    <ol type="1">
+      <li>
+        Membuat ulang visualisasi data Indeks Pembangunan Manusia (IPM) berdasarkan publikasi yang telah diterbitkan oleh Badan Pusat Statistika (BPS).
+      </li>
+      <li>
+        Membuat visualisasi data interaktif mengenai Indeks Pembangunan Manusia dengan <i>Tableau Public</i>.
+      </li>
+    </ol>
+  </p>
 
+<h3>III. Metode Penelitian</h3>
+  <p align="justify">
+  <h4>a. Ruang Lingkup Penelitian</h4>
+  </p>
+  <p align="justify">
+  Penelitian ini bertujuan untuk membuat ulang visualisasi pada publikasi BPS tentang Indeks Pembangunan Manusia yang dibuat menjadi visualisasi data interaktif. Data yang digunakan adalah data sekunder yang didapatkan dari publikasi pada <i>website</i> BPS yang berupa data spasial dan data panel berupa gabungan antara data runtun waktu dan data lintas daerah. Selain dari data yang diterbitkan oleh BPS, digunakan pula data geometri yang berisi variabel geometri untuk memvisualkan peta tematik sesuai daerah yang akan diinterpretasikan.
+  </p>
+  <p align="justify">
+  <h4>b. Studi Literatur</h4>
+  </p>
+  <p align="justify">
+  Studi literatur berkenaan dengan metode pengumpulan data Pustaka, membaca dan mencatat, serta mengelola bahan penelitian. Studi literatur dilakukan dengan mempelajari berbagai jurnal ilmiah, buku, dan artikel yang terkait dengan penelitian yang membahas tentang teknik visualisasi data dan publikasi hasil visualisasi data.
+  </p>
+  <p align="justify">
+  <h4>c. Pengolahan Data</h4>
+  </p>
+  <p align="justify">
+  Pengolahan data dilakukan agar data mentah dapat digunakan dalam penelitian dan diimplementasikan untuk visualisasi data dengan <i>tools</i> yang digunakan. Tahapan pengolahan data meliputi pencarian data, pengumpulan data, pemeriksaan data, pemilihan data, pembersihan data, peringkasan data, dan penyatuan data. <i>Tools</i> yang digunakan untuk membantu pengolahan data adalah <i>Microsoft Office Excel</i> dan <i>R-Studio</i>.
+  </p>
+    <p align="justify">
+  <h4>d. Visualisasi Data</h4>
+  </p>
+  <p align="justify">
+  Data yang sudah diolah akan dilakukan visualisasi sesuai dengan jenis visualisasi yang paling sesuai. <i>Tools</i> yang digunakan dalam pembuatan visualisasi data ini adalah <i>Figma</i> dan <i>Tableau Public</i>. Beberapa jenis visualisasi yang akan diimplementasikan pada data adalah <i>bar chart</i>, <i>line chart</i>, dan <i>interactive choropleth map</i>. 
+  </p>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
+<h3>IV. Hasil dan Pembahasan</h3>
+  <p align="justify">
+  <h4>a. Visualisasi Data</h4>
+  </p>
+  <p align="justify">
+  Visualisasi data digunakan untuk merepresentasikan data statistik secara visual. Memvisualisasikan data dapat membantu pengguna untuk lebih memahami pola, tren, hubungan, dan pencilan yang terdapat dalam data yang besar dan kompleks. Beberapa jenis visualisasi data yang popular digunakan adalah <i>bar chart</i>, <i>line chart</i>, maupun <i>pie chart</i>.
+  </p>
+  <p align="justify">
+  Visualisasi data interaktif didefinisikan sebagai visualisasi data yang interaktif dimana pengguna dapat melakukan interaksi seperti <i>overview</i>, <i>zoom</i> dan <i>filtering</i>, hingga <i>details on demand</i>. Visualisasi data interaktif mendukung pengguna untuk menggali informasi lebih mendalam mengenai data dan menampilkan berbagai macam tampilan data secara bergantian sesuai keinginan pengguna.
+  </p>
+  <p align="justify">
+  <h4>b. Implementasi Visualisasi Data</h4>
+  </p>
+  <ol type="1">
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <h5><i>Bar Chart</i></h5>
     </li>
+    <img src="images/visdat1.png" width="75%" height="75%"> </img>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <h5><i>Line Chart</i></h5>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <img src="images/visdat2.png" width="75%" height="75%"> </img>
+    <li>
+      <h5><i>Choropleth Map</i></h5>
+    </li>
+    <img src="images/visdat3.png" width="75%" height="75%"> </img>
   </ol>
-</details>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+<h3>V. Kesimpulan dan Saran</h3>
+  <p align="justify">
+  Pada penelitian ini telah berhasil mengimplementasikan visualisasi data pada data Indeks Pembangunan Manusia dengan tiga jenis visualisasi data berupa <i>bar chart</i>, <i>line chart</i>, dan <i>interactive choropleth map</i>. Pengaplikasian data visual dirasa cukup karena sesuai dengan publikasi yang dilakukan oleh Badan Pusat Statistika (BPS) yang diimplementasikan menjadi publikasi online dan peta interaktif. Dari visualisasi yang telah dibuat dapat disimpulkan bahwa kelebihan publikasi yang dilakukan dengan visualisasi data interaktif akan berisi informasi yang lebih banyak dan beragam, pengguna juga dapat mengeksplorasi data lebih mendalam sesuai dengan informasi yang ingin didapatkan.
+  </p>
+  <p align="justify">
+  Selain itu, terdapat pula beberapa kekurangan dalam penelitian ini seperti keterbatasan data dan <i>tools</i> yang digunakan. Penggunaan <i>Tableau Public</i> cukup baik dalam memvisualisasikan data tetapi kurang baik digunakan secara online karena terasa sangat berat dan kurang responsif.</p>
+  <p align="justify">
+  Saran untuk penelitian selanjutnya adalah dengan memperbanyak variasi data agar visualisasi data yang dilakukan lebih beragam. Dibutuhkan pula tools yang lebih mumpuni agar mempermudah dalam melakukan visualisasi data dan mengakses data hasil visualisasi agar lebih optimal.
+  </p>
