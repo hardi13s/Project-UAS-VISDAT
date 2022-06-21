@@ -24,10 +24,10 @@
   <p align="justify">
   Berdasarkan uraian pada latar belakang, maka dirumuskan tujuan penelitian yang ingin dicapai, yaitu: 
     <ol type="1">
-      <li>
+      <li align="justify">
         Membuat ulang visualisasi data Indeks Pembangunan Manusia (IPM) berdasarkan publikasi yang telah diterbitkan oleh Badan Pusat Statistika (BPS).
       </li>
-      <li>
+      <li align="justify">
         Membuat visualisasi data interaktif mengenai Indeks Pembangunan Manusia dengan <i>Tableau Public</i>.
       </li>
     </ol>
